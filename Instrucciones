@@ -1,0 +1,107 @@
+INSTRUCCIONES.md (para instalar el proyecto)
+# Instalación y uso del Forex Liquidity Dashboard
+
+Esta guía explica cómo instalar y ejecutar el proyecto localmente.
+
+## Requisitos
+
+- Python 3.10 o superior
+- Git
+- Pip
+
+## 1. Clonar el repositorio
+
+
+git clone https://github.com/TU-USUARIO/forex-liquidity-dashboard.git
+
+
+Entrar a la carpeta del proyecto:
+
+
+cd forex-liquidity-dashboard
+
+
+## 2. Crear entorno virtual
+
+Windows:
+
+
+python -m venv venv
+
+
+Activar entorno:
+
+
+venv\Scripts\activate
+
+
+## 3. Instalar dependencias
+
+
+pip install -r requirements.txt
+
+
+## 4. Descargar datos históricos
+
+Ejecutar:
+
+
+python scripts/run_download.py
+
+
+Esto descargará los datos necesarios para el análisis.
+
+## 5. Ejecutar el dashboard
+
+
+streamlit run run_pipeline.py
+
+
+Luego abrir en el navegador:
+
+
+http://localhost:8501
+
+
+## Funcionamiento del sistema
+
+El sistema realiza:
+
+1. Descarga de datos
+2. Procesamiento de zonas de liquidez
+3. Generación de señales
+4. Ranking de señales activas
+5. Visualización en dashboard
+
+## Flujo del pipeline
+
+
+Market Data
+↓
+Liquidity Detection
+↓
+Signal Generation
+↓
+Signal Ranking
+↓
+Dashboard Visualization
+
+
+## Problemas comunes
+
+Si Streamlit no abre el dashboard:
+
+
+streamlit run run_pipeline.py --browser.serverAddress localhost
+
+
+Si faltan paquetes:
+
+
+pip install -r requirements.txt
+
+
+## Contacto
+
+Patricio Alvial
+palvialperez@gmail.com
