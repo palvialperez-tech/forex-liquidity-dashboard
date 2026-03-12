@@ -114,3 +114,19 @@ Especializado en:
 - Data Engineering
 - Automatización de análisis financiero
 - Sistemas de trading cuantitativo
+
+prints:
+
+<img width="1774" height="772" alt="image" src="https://github.com/user-attachments/assets/71fbdcaf-ba5c-4247-8c16-bed164bcea9a" />
+
+<img width="1767" height="726" alt="image" src="https://github.com/user-attachments/assets/769e85cd-be84-4134-8a34-32ea6185c7e9" />
+
+<img width="1786" height="857" alt="image" src="https://github.com/user-attachments/assets/215befbf-58e8-42b2-b1cc-e8f59f1f0891" />
+
+
+<img width="1793" height="808" alt="image" src="https://github.com/user-attachments/assets/49a69df2-ddbc-4424-946e-a093c77be1c1" />
+
+<img width="1848" height="746" alt="image" src="https://github.com/user-attachments/assets/aae70002-a02a-4ddb-9ac7-e2ff2dc8a79b" />
+
+<img width="1870" height="665" alt="image" src="https://github.com/user-attachments/assets/70b914fc-be9f-45e9-b710-832d841ecd0c" />
+
