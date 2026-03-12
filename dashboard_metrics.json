@@ -1,0 +1,737 @@
+{
+    "equity_final": 10505.9592,
+    "total_trades": 4,
+    "wins": 3,
+    "losses": 1,
+    "trend_1h": "bearish",
+    "structure_m15": "bearish",
+    "stats": {
+        "win_rate": 0.556,
+        "avg_rr": 2.0,
+        "expectancy": 0.667,
+        "trades": 9
+    },
+    "best_signal": {
+        "type": "SELL",
+        "entry": 1.15524,
+        "index": 4320,
+        "setup": "sweep + bos + bearish_ob",
+        "score": 2.0,
+        "session": null,
+        "mtf_score": 3,
+        "age": 896,
+        "distance": 0.0009500000000000064,
+        "base_score": 2.0,
+        "sweep_bonus": 1,
+        "sweep_match": true,
+        "ranking_score": 3.0
+    },
+    "signals": [
+        {
+            "type": "SELL",
+            "entry": 1.15524,
+            "index": 4320,
+            "setup": "sweep + bos + bearish_ob",
+            "score": 2.0,
+            "session": null,
+            "mtf_score": 3
+        },
+        {
+            "type": "SELL",
+            "entry": 1.15529,
+            "index": 4322,
+            "setup": "sweep + bos + bearish_ob",
+            "score": 2.0,
+            "session": null,
+            "mtf_score": 3
+        },
+        {
+            "type": "SELL",
+            "entry": 1.16161,
+            "index": 4311,
+            "setup": "sweep + bos + bearish_ob",
+            "score": 1.0,
+            "session": null,
+            "mtf_score": 3
+        },
+        {
+            "type": "SELL",
+            "entry": 1.16124,
+            "index": 4596,
+            "setup": "sweep + bos + bearish_ob",
+            "score": 1.0,
+            "session": null,
+            "mtf_score": 3
+        }
+    ],
+    "signals_raw": [
+        {
+            "type": "SELL",
+            "entry": 1.15524,
+            "index": 4320,
+            "setup": "sweep + bos + bearish_ob",
+            "score": 2.0,
+            "session": null,
+            "mtf_score": 3
+        },
+        {
+            "type": "SELL",
+            "entry": 1.15529,
+            "index": 4322,
+            "setup": "sweep + bos + bearish_ob",
+            "score": 2.0,
+            "session": null,
+            "mtf_score": 3
+        },
+        {
+            "type": "BUY",
+            "entry": 1.17687,
+            "index": 1354,
+            "setup": "sweep + bos + bullish_ob",
+            "score": 1.0,
+            "session": null,
+            "mtf_score": -1
+        },
+        {
+            "type": "BUY",
+            "entry": 1.17793,
+            "index": 1357,
+            "setup": "sweep + bos + bullish_ob",
+            "score": 1.0,
+            "session": null,
+            "mtf_score": -1
+        },
+        {
+            "type": "BUY",
+            "entry": 1.17997,
+            "index": 1361,
+            "setup": "sweep + bos + bullish_ob",
+            "score": 1.0,
+            "session": null,
+            "mtf_score": -1
+        },
+        {
+            "type": "BUY",
+            "entry": 1.16138,
+            "index": 3430,
+            "setup": "sweep + bos + bullish_ob",
+            "score": 1.0,
+            "session": null,
+            "mtf_score": -1
+        },
+        {
+            "type": "BUY",
+            "entry": 1.1621,
+            "index": 3433,
+            "setup": "sweep + bos + bullish_ob",
+            "score": 1.0,
+            "session": null,
+            "mtf_score": -1
+        },
+        {
+            "type": "SELL",
+            "entry": 1.16161,
+            "index": 4311,
+            "setup": "sweep + bos + bearish_ob",
+            "score": 1.0,
+            "session": null,
+            "mtf_score": 3
+        },
+        {
+            "type": "SELL",
+            "entry": 1.16124,
+            "index": 4596,
+            "setup": "sweep + bos + bearish_ob",
+            "score": 1.0,
+            "session": null,
+            "mtf_score": 3
+        }
+    ],
+    "liquidity_targets": [
+        {
+            "type": "SELL",
+            "source": "signal",
+            "price": 1.15524,
+            "direction": "above",
+            "distance_pips": 9.5
+        }
+    ],
+    "liquidity_bias": {
+        "liquidity_above": 1,
+        "liquidity_below": 0,
+        "pct_above": 100.0,
+        "pct_below": 0.0,
+        "bias": "bullish",
+        "probable_sweep": "high",
+        "best_target": {
+            "type": "SELL",
+            "source": "signal",
+            "price": 1.15524,
+            "direction": "above",
+            "distance_pips": 9.5
+        }
+    },
+    "sweeps": [
+        {
+            "type": "high_sweep",
+            "level": 1.16284,
+            "index": 5017,
+            "datetime": "2026-03-11 04:20:00",
+            "high": 1.16319,
+            "low": 1.1625,
+            "close": 1.16272,
+            "direction": "SELL",
+            "sweep_distance_pips": 3.5
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16266,
+            "index": 5017,
+            "datetime": "2026-03-11 04:20:00",
+            "high": 1.16319,
+            "low": 1.1625,
+            "close": 1.16272,
+            "direction": "BUY",
+            "sweep_distance_pips": 1.6
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16266,
+            "index": 5018,
+            "datetime": "2026-03-11 04:25:00",
+            "high": 1.16304,
+            "low": 1.16238,
+            "close": 1.16302,
+            "direction": "BUY",
+            "sweep_distance_pips": 2.8
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16292,
+            "index": 5018,
+            "datetime": "2026-03-11 04:25:00",
+            "high": 1.16304,
+            "low": 1.16238,
+            "close": 1.16302,
+            "direction": "BUY",
+            "sweep_distance_pips": 5.45
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16242,
+            "index": 5019,
+            "datetime": "2026-03-11 04:30:00",
+            "high": 1.16313,
+            "low": 1.16233,
+            "close": 1.16238,
+            "direction": "SELL",
+            "sweep_distance_pips": 7.1
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16284,
+            "index": 5019,
+            "datetime": "2026-03-11 04:30:00",
+            "high": 1.16313,
+            "low": 1.16233,
+            "close": 1.16238,
+            "direction": "SELL",
+            "sweep_distance_pips": 2.9
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16242,
+            "index": 5020,
+            "datetime": "2026-03-11 04:35:00",
+            "high": 1.16268,
+            "low": 1.16199,
+            "close": 1.16208,
+            "direction": "SELL",
+            "sweep_distance_pips": 2.6
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.1617,
+            "index": 5021,
+            "datetime": "2026-03-11 04:40:00",
+            "high": 1.1622,
+            "low": 1.1615,
+            "close": 1.16169,
+            "direction": "SELL",
+            "sweep_distance_pips": 4.95
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16197,
+            "index": 5021,
+            "datetime": "2026-03-11 04:40:00",
+            "high": 1.1622,
+            "low": 1.1615,
+            "close": 1.16169,
+            "direction": "SELL",
+            "sweep_distance_pips": 2.3
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.1616,
+            "index": 5021,
+            "datetime": "2026-03-11 04:40:00",
+            "high": 1.1622,
+            "low": 1.1615,
+            "close": 1.16169,
+            "direction": "BUY",
+            "sweep_distance_pips": 1.05
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16181,
+            "index": 5022,
+            "datetime": "2026-03-11 04:45:00",
+            "high": 1.16217,
+            "low": 1.16163,
+            "close": 1.16217,
+            "direction": "BUY",
+            "sweep_distance_pips": 1.8
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16207,
+            "index": 5022,
+            "datetime": "2026-03-11 04:45:00",
+            "high": 1.16217,
+            "low": 1.16163,
+            "close": 1.16217,
+            "direction": "BUY",
+            "sweep_distance_pips": 4.45
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16197,
+            "index": 5023,
+            "datetime": "2026-03-11 04:50:00",
+            "high": 1.16225,
+            "low": 1.16181,
+            "close": 1.16185,
+            "direction": "SELL",
+            "sweep_distance_pips": 2.8
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.1616,
+            "index": 5024,
+            "datetime": "2026-03-11 04:55:00",
+            "high": 1.16182,
+            "low": 1.16135,
+            "close": 1.16171,
+            "direction": "BUY",
+            "sweep_distance_pips": 2.55
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.1616,
+            "index": 5025,
+            "datetime": "2026-03-11 05:00:00",
+            "high": 1.16182,
+            "low": 1.1615,
+            "close": 1.16172,
+            "direction": "BUY",
+            "sweep_distance_pips": 1.05
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.1616,
+            "index": 5026,
+            "datetime": "2026-03-11 05:05:00",
+            "high": 1.16178,
+            "low": 1.16131,
+            "close": 1.16161,
+            "direction": "BUY",
+            "sweep_distance_pips": 2.95
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16181,
+            "index": 5027,
+            "datetime": "2026-03-11 05:10:00",
+            "high": 1.16213,
+            "low": 1.16155,
+            "close": 1.16206,
+            "direction": "BUY",
+            "sweep_distance_pips": 2.6
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16139,
+            "index": 5028,
+            "datetime": "2026-03-11 05:15:00",
+            "high": 1.16205,
+            "low": 1.16135,
+            "close": 1.16138,
+            "direction": "SELL",
+            "sweep_distance_pips": 6.6
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.1617,
+            "index": 5028,
+            "datetime": "2026-03-11 05:15:00",
+            "high": 1.16205,
+            "low": 1.16135,
+            "close": 1.16138,
+            "direction": "SELL",
+            "sweep_distance_pips": 3.45
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16139,
+            "index": 5029,
+            "datetime": "2026-03-11 05:20:00",
+            "high": 1.16169,
+            "low": 1.16116,
+            "close": 1.16151,
+            "direction": "BUY",
+            "sweep_distance_pips": 2.25
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16121,
+            "index": 5030,
+            "datetime": "2026-03-11 05:25:00",
+            "high": 1.16158,
+            "low": 1.16106,
+            "close": 1.16145,
+            "direction": "BUY",
+            "sweep_distance_pips": 1.55
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16139,
+            "index": 5030,
+            "datetime": "2026-03-11 05:25:00",
+            "high": 1.16158,
+            "low": 1.16106,
+            "close": 1.16145,
+            "direction": "BUY",
+            "sweep_distance_pips": 3.25
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16118,
+            "index": 5032,
+            "datetime": "2026-03-11 05:35:00",
+            "high": 1.16143,
+            "low": 1.16096,
+            "close": 1.16102,
+            "direction": "SELL",
+            "sweep_distance_pips": 2.5
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16081,
+            "index": 5033,
+            "datetime": "2026-03-11 05:40:00",
+            "high": 1.16127,
+            "low": 1.16067,
+            "close": 1.16067,
+            "direction": "SELL",
+            "sweep_distance_pips": 4.6
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16098,
+            "index": 5033,
+            "datetime": "2026-03-11 05:40:00",
+            "high": 1.16127,
+            "low": 1.16067,
+            "close": 1.16067,
+            "direction": "SELL",
+            "sweep_distance_pips": 2.95
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16049,
+            "index": 5036,
+            "datetime": "2026-03-11 05:55:00",
+            "high": 1.16135,
+            "low": 1.16037,
+            "close": 1.16127,
+            "direction": "BUY",
+            "sweep_distance_pips": 1.2
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16074,
+            "index": 5036,
+            "datetime": "2026-03-11 05:55:00",
+            "high": 1.16135,
+            "low": 1.16037,
+            "close": 1.16127,
+            "direction": "BUY",
+            "sweep_distance_pips": 3.75
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16098,
+            "index": 5036,
+            "datetime": "2026-03-11 05:55:00",
+            "high": 1.16135,
+            "low": 1.16037,
+            "close": 1.16127,
+            "direction": "BUY",
+            "sweep_distance_pips": 6.05
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16121,
+            "index": 5036,
+            "datetime": "2026-03-11 05:55:00",
+            "high": 1.16135,
+            "low": 1.16037,
+            "close": 1.16127,
+            "direction": "BUY",
+            "sweep_distance_pips": 8.45
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.15972,
+            "index": 5037,
+            "datetime": "2026-03-11 06:00:00",
+            "high": 1.16139,
+            "low": 1.15906,
+            "close": 1.15949,
+            "direction": "SELL",
+            "sweep_distance_pips": 16.65
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.15999,
+            "index": 5037,
+            "datetime": "2026-03-11 06:00:00",
+            "high": 1.16139,
+            "low": 1.15906,
+            "close": 1.15949,
+            "direction": "SELL",
+            "sweep_distance_pips": 13.95
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16048,
+            "index": 5037,
+            "datetime": "2026-03-11 06:00:00",
+            "high": 1.16139,
+            "low": 1.15906,
+            "close": 1.15949,
+            "direction": "SELL",
+            "sweep_distance_pips": 9.05
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16081,
+            "index": 5037,
+            "datetime": "2026-03-11 06:00:00",
+            "high": 1.16139,
+            "low": 1.15906,
+            "close": 1.15949,
+            "direction": "SELL",
+            "sweep_distance_pips": 5.8
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16098,
+            "index": 5037,
+            "datetime": "2026-03-11 06:00:00",
+            "high": 1.16139,
+            "low": 1.15906,
+            "close": 1.15949,
+            "direction": "SELL",
+            "sweep_distance_pips": 4.15
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.16118,
+            "index": 5037,
+            "datetime": "2026-03-11 06:00:00",
+            "high": 1.16139,
+            "low": 1.15906,
+            "close": 1.15949,
+            "direction": "SELL",
+            "sweep_distance_pips": 2.1
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.15956,
+            "index": 5038,
+            "datetime": "2026-03-11 06:05:00",
+            "high": 1.16034,
+            "low": 1.15913,
+            "close": 1.1603,
+            "direction": "BUY",
+            "sweep_distance_pips": 4.3
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.15985,
+            "index": 5038,
+            "datetime": "2026-03-11 06:05:00",
+            "high": 1.16034,
+            "low": 1.15913,
+            "close": 1.1603,
+            "direction": "BUY",
+            "sweep_distance_pips": 7.25
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16006,
+            "index": 5038,
+            "datetime": "2026-03-11 06:05:00",
+            "high": 1.16034,
+            "low": 1.15913,
+            "close": 1.1603,
+            "direction": "BUY",
+            "sweep_distance_pips": 9.3
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.16021,
+            "index": 5038,
+            "datetime": "2026-03-11 06:05:00",
+            "high": 1.16034,
+            "low": 1.15913,
+            "close": 1.1603,
+            "direction": "BUY",
+            "sweep_distance_pips": 10.85
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.15972,
+            "index": 5040,
+            "datetime": "2026-03-11 06:15:00",
+            "high": 1.16033,
+            "low": 1.15962,
+            "close": 1.15963,
+            "direction": "SELL",
+            "sweep_distance_pips": 6.05
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.15999,
+            "index": 5040,
+            "datetime": "2026-03-11 06:15:00",
+            "high": 1.16033,
+            "low": 1.15962,
+            "close": 1.15963,
+            "direction": "SELL",
+            "sweep_distance_pips": 3.35
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.15972,
+            "index": 5041,
+            "datetime": "2026-03-11 06:20:00",
+            "high": 1.15991,
+            "low": 1.15936,
+            "close": 1.1597,
+            "direction": "SELL",
+            "sweep_distance_pips": 1.85
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.15956,
+            "index": 5041,
+            "datetime": "2026-03-11 06:20:00",
+            "high": 1.15991,
+            "low": 1.15936,
+            "close": 1.1597,
+            "direction": "BUY",
+            "sweep_distance_pips": 2.0
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.1593,
+            "index": 5042,
+            "datetime": "2026-03-11 06:25:00",
+            "high": 1.15976,
+            "low": 1.15913,
+            "close": 1.15927,
+            "direction": "SELL",
+            "sweep_distance_pips": 4.6
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.15999,
+            "index": 5043,
+            "datetime": "2026-03-11 06:30:00",
+            "high": 1.16018,
+            "low": 1.15921,
+            "close": 1.15984,
+            "direction": "SELL",
+            "sweep_distance_pips": 1.85
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.15956,
+            "index": 5043,
+            "datetime": "2026-03-11 06:30:00",
+            "high": 1.16018,
+            "low": 1.15921,
+            "close": 1.15984,
+            "direction": "BUY",
+            "sweep_distance_pips": 3.5
+        },
+        {
+            "type": "low_sweep",
+            "level": 1.15956,
+            "index": 5044,
+            "datetime": "2026-03-11 06:35:00",
+            "high": 1.15998,
+            "low": 1.15937,
+            "close": 1.15975,
+            "direction": "BUY",
+            "sweep_distance_pips": 1.9
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.15972,
+            "index": 5045,
+            "datetime": "2026-03-11 06:40:00",
+            "high": 1.15992,
+            "low": 1.15941,
+            "close": 1.15951,
+            "direction": "SELL",
+            "sweep_distance_pips": 1.95
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.1593,
+            "index": 5047,
+            "datetime": "2026-03-11 06:50:00",
+            "high": 1.15957,
+            "low": 1.15905,
+            "close": 1.15918,
+            "direction": "SELL",
+            "sweep_distance_pips": 2.7
+        },
+        {
+            "type": "high_sweep",
+            "level": 1.1593,
+            "index": 5048,
+            "datetime": "2026-03-11 06:55:00",
+            "high": 1.15941,
+            "low": 1.15901,
+            "close": 1.15922,
+            "direction": "SELL",
+            "sweep_distance_pips": 1.1
+        }
+    ],
+    "latest_sweep": {
+        "type": "high_sweep",
+        "level": 1.15614,
+        "index": 5198,
+        "datetime": "2026-03-11 19:25:00",
+        "high": 1.15655,
+        "low": 1.15599,
+        "close": 1.1561,
+        "direction": "SELL",
+        "sweep_distance_pips": 4.05
+    }
+}

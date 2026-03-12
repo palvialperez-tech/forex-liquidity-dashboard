@@ -1,0 +1,4 @@
+symbol: EURUSD
+exchange: FX_IDC
+interval: 5m
+bars: 5000
