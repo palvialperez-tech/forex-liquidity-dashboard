@@ -109,6 +109,11 @@ Esto permite identificar oportunidades de trading con mayor probabilidad.
 Patricio Alvial  
 Data Engineer | Trading Systems Developer
 
+
+GitHub: @palvial-tech
+
+LinkedIn: [Patricio Alvial](https://www.linkedin.com/in/pperezalvial/)
+
 Especializado en:
 
 - Data Engineering
